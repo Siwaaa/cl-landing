@@ -88,6 +88,24 @@ const addClassVideoSpeed = () => {
 // 	videoPaused();
 // })
 // -- //
+const prices = ["590 рублей", "540 рублей", "475 рублей", "410 рублей"]
+const price = document.querySelector('#month')
+const select = document.querySelector('.select__calc')
+const currentSelect = document.querySelector('.select__calc').getElementsByTagName('option')
+
+select.addEventListener('change', () => {
+	for (let i = 0; i < currentSelect.length; i++) {
+		if (currentSelect[i].selected === true) {
+			price.textContent = prices[i]
+		}
+	}
+})
+
+
+
+
+
+
 
 const swiper = new Swiper(".swiper", {
 	containerModifierClass: "swiper",
@@ -151,15 +169,13 @@ const functionInfo = document.querySelectorAll(".function__info")
 
 const visibleGif = (infoBlocks) => {
 	infoBlocks.forEach((el) => {
-		if (document.documentElement.clientWidth > 991) {
+		if ((document.documentElement.clientWidth > 991) && (el.nextElementSibling !== null)) {
 			el.addEventListener("mouseover", () => {
 				el.nextElementSibling.style.opacity = "1"
 				el.nextElementSibling.style.height = "auto"
-				console.log();
 			});
 			el.addEventListener("mouseout", () => {
 				el.nextElementSibling.style.opacity = "0"
-				console.log();
 			});
 		}
 	});
