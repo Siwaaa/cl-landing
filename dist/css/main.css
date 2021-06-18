@@ -658,6 +658,7 @@ body {
   right: 5%;
   width: 300px;
   height: auto;
+  z-index: 99;
 }
 @media (max-width:1070px) {
   .vid {
