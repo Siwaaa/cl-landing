@@ -270,9 +270,6 @@ p {
   .btn-reset, .input-reset, .link-reset {
     outline: 0;
   }
-  .main-heading {
-    font-size: 1.2rem;
-  }
 }
 @media (max-width:410px) {
   .main-heading {
@@ -654,6 +651,7 @@ body {
 } */
 .vid {
   position: absolute;
+  outline: none;
   top: -14%;
   right: 5%;
   width: 300px;
@@ -722,6 +720,7 @@ body {
   width: 60%;
 }
 .hero__heading {
+  position: relative;
   max-width: calc(var(--grid)*24);
   margin-bottom: 2.5rem;
   color: #000;
@@ -731,6 +730,7 @@ body {
   font-size: 2.5rem;
   line-height: 122%;
   text-transform: uppercase;
+  z-index: 6;
 }
 @media (max-width:1200px) {
   .hero__heading {
@@ -760,12 +760,14 @@ body {
   color: #487bff;
 }
 .hero__text {
+  position: relative;
   max-width: 727px;
   margin-bottom: 3rem;
   color: #000;
   font-family: Inter, sans-serif;
   font-size: 1.2rem;
   line-height: 1.4;
+  z-index: 6;
 }
 @media (max-width:500px) {
   .hero__text {
