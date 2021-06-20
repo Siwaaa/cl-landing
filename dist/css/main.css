@@ -2300,16 +2300,16 @@ body {
 #two::before {
   content: "";
   position: absolute;
-  top: -50px;
+  top: -40px;
   right: 0;
-  width: 50px;
-  height: 50px;
-  background: url(../img/image45.png) center/contain no-repeat;
+  width: 40px;
+  height: 40px;
+  background: url(../img/cursor.png) center/contain no-repeat;
   animation: box 2s ease-in-out infinite;
 }
 @keyframes box {
-  0% { transform: none; opacity: 0; }
-  30% { transform: none; opacity: 0; }
+  0% { transform: scale(2) translate(50%, -60%); opacity: 0; }
+  30% { transform: scale(2) translate(50%, -60%); opacity: 1; }
   100% { transform: translate(-50%, 100%); opacity: 1;}
 }
 
