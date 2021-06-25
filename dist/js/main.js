@@ -88,7 +88,7 @@ const addClassVideoSpeed = () => {
 // 	videoPaused();
 // })
 // -- //
-const prices = ["590 рублей", "540 рублей", "475 рублей", "410 рублей"]
+const prices = ["590 ₽/мес", "540 ₽/мес", "475 ₽/мес", "410 ₽/мес"]
 const price = document.querySelector('#month')
 const select = document.querySelector('.select__calc')
 const currentSelect = document.querySelector('.select__calc').getElementsByTagName('option')
