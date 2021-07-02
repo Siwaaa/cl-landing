@@ -659,9 +659,9 @@ body {
   height: auto;
   z-index: 1;
 }
-@media (max-width:1070px) {
+@media (max-width:1200px) {
   .vid {
-    top: -20%;
+    top: -23%;
   }
 }
 @media (max-width:840px) {
@@ -700,18 +700,18 @@ body {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  padding-top: 260px;
+  padding-top: 240px;
   padding-bottom: calc(var(--grid)*4);
 }
 @media (max-width:767.98px) {
   .hero__container {
-    padding-top: 220px;
+    padding-top: 210px;
     padding-bottom: 9rem;
   }
 }
 @media (max-width:400px) {
   .hero__container {
-    padding-top: 190px;
+    padding-top: 180px;
   }
   #first-btn {
     align-self: center;
@@ -773,7 +773,8 @@ body {
 }
 @media (max-width:500px) {
   .hero__text {
-    max-width: 100%
+    max-width: 100%;
+    padding-right: 0;
   }
 }
 @media (max-width:767.98px) {
