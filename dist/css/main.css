@@ -1028,8 +1028,8 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-top: calc(var(--grid)*7);
-  padding-bottom: calc(var(--grid)*7);
+  padding-top: calc(var(--grid)*5);
+  padding-bottom: calc(var(--grid)*5);
 }
 .mistakes__heading {
   margin-bottom: calc(var(--grid)*2.1);
@@ -1273,7 +1273,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-bottom: calc(var(--grid)*7);
+  padding-bottom: calc(var(--grid)*5);
 }
 .target__heading {
   margin-bottom: calc(var(--grid)*2);
@@ -1727,8 +1727,8 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: calc(var(--grid)*7);
-  padding-bottom: calc(var(--grid)*7);
+  padding-top: calc(var(--grid)*5);
+  padding-bottom: calc(var(--grid)*5);
 }
 @media (max-width:767.98px) {
   .steps__container {
@@ -1952,7 +1952,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-bottom: calc(var(--grid)*7);
+  padding-bottom: calc(var(--grid)*5);
 }
 @media (max-width:767.98px) {
   .chanel__container {
@@ -2210,7 +2210,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding-bottom: calc(var(--grid)*7);
+  padding-bottom: calc(var(--grid)*5);
 }
 .functions__heading, .functions__item:not(:last-child) {
   margin-bottom: 5rem;
@@ -2404,7 +2404,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding-bottom: calc(var(--grid)*7);
+  padding-bottom: calc(var(--grid)*5);
 }
 .prices__heading {
   margin-bottom: 8rem;
@@ -2543,7 +2543,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding-bottom: calc(var(--grid)*7);
+  padding-bottom: calc(var(--grid)*5);
 }
 .customer__heading {
   margin-bottom: 12rem;
@@ -2752,7 +2752,7 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-bottom: calc(var(--grid)*7);
+  padding-bottom: calc(var(--grid)*5);
 }
 .reviews__heading {
   margin-bottom: 5rem;
@@ -2972,7 +2972,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding-bottom: calc(var(--grid)*7);
+  padding-bottom: calc(var(--grid)*5);
 }
 .telegram__heading {
   margin-bottom: 5rem;
@@ -3130,7 +3130,7 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-bottom: calc(var(--grid)*7);
+  padding-bottom: calc(var(--grid)*5);
 }
 .start__heading, .start__item:not(:last-child) {
   margin-bottom: 5rem;
@@ -3261,7 +3261,7 @@ body {
 
 .objective {
   position: relative;
-  padding-bottom: calc(var(--grid)*7);
+  padding-bottom: calc(var(--grid)*5);
 }
 @media (max-width:991.98px) {
   .objective {
